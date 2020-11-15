@@ -1,0 +1,70 @@
+body{
+    background-image:url("https://www.buzandneds.com/wp-content/uploads/2015/11/003-subtle-light-pattern-background-texture-vol5.jpg");
+  }
+  h1{ text-align:center;}
+  
+  img{width:15%; }
+  
+  #carrot{ 
+  width:100px;
+  position:absolute;
+  left:90%;
+  top:112%;
+  }
+  .step{
+    display:flex;
+    flex-direction:column;
+  }
+  .blue-stairs{
+    background:#008080;
+    height:50px;
+    margin:2px;
+  }
+  .grey-stairs{
+    background:#D3D3D3;
+    height:50px;
+    margin:2px;
+  }
+  .blue-stairs:nth-child(1){
+    width:550px;
+  }
+  .blue-stairs:nth-child(3){
+    width:450px;
+  }
+  .blue-stairs:nth-child(5){
+    width:350px;
+  }
+  .blue-stairs:nth-child(7){
+    width:250px;
+  }
+  .grey-stairs:nth-child(2){
+    width:500px;
+  }
+  .grey-stairs:nth-child(4){
+    width:400px;
+  }
+  .grey-stairs:nth-child(6){
+    width:300px;
+  }
+  .grey-stairs:nth-child(8){
+    width:200px;
+  }
+  .blue-stairs:nth-child(9){
+    width:150px;
+  }
+  .grey-stairs:nth-child(10){
+    width:100px;
+  }
+  
+  .step{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #rabbit{
+    width:100px;
+    position:absolute;
+    left:80%;
+    top:112%;
+  }
+  
